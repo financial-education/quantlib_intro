@@ -1,0 +1,31 @@
+#+title: QuantLib
+#+author: Matt Brigida, Ph.D.
+#+email: matthew.brigida@sunypoly.edu
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+
+* C++ and Finance
+
+Python and R are great languages for prototyping and for production tasks where speed is not an issue.  However, when you need an rock-solid, fast, and established language you can beat C++.  C++ is widely used in finance for:
+
+- Derivative (Option) Pricing
+- HFT
+- Portfolio Construction and Stress Testing
+- Term Structure Modeling
+
+* Quantlib
+
+#+begin_src C++ :libs "ql/experimental/barrieroption/analyticdoublebarrierbinaryengine.hpp :includes iostream :exports results
+  int
+  main()
+{
+  std::cout << "test\n";
+  return 0;
+}
+#+end_src
+
+#+RESULTS:
+
+
+* RCpp
+
